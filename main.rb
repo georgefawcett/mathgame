@@ -1,6 +1,14 @@
 require './question.rb'
+require './player.rb'
+require './turn.rb'
 
-p question
+puts "----- GAME START -----"
+@current_player = 0
+@gameover = false
+
+while @gameover == false
+  turn
+end
 
 
 
