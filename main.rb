@@ -1,2 +1,6 @@
-# pp gets.chomp
-puts "hello"
+require './question.rb'
+
+p question
+
+
+
